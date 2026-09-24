@@ -16,7 +16,7 @@ This README contains the CAD geometry, material characterization data, and simul
             ├── TC_FEA_V6_Single Below.sldrt (1mm cap on both ends of the bellow)
             ├── TC_FEA_V7_Single Below.sldrt (most updated:10mm base with a 1mm cap on hollow single bellow)
         ├── Single Linear Actuator STL 
-            ├── Single_LinearACT5.STL
+            ├── Single_LinearACT5.STL (correlates to TC_FEA_V7_Single Below.sldrt; used to print pressure testing on               |                           the FRESH printer) 
             ├── Single_LinearACT4.STL
             ├── Single_LinearACT3.STL
             ├── Single_LinearACT2.STL
@@ -27,14 +27,14 @@ This README contains the CAD geometry, material characterization data, and simul
         ├── Simplified Multi-Actuator Simulation Files
             ├── Simplified_gripper_Multi-Actuator_V2.wbpj (FEA with simplified gripper and simplified end pieces)
             ├── Simplified_gripper_Multi-Actuator_V1.wbpj (FEA with simplified gripper no simplified end pieces)
-            ├── MultiActator_FEA_4.dscodat 
+            ├── MultiActuator_FEA_4.dscodat (Pressure testing simulation inlet/oulet in discovery)
             ├── MultiActator_FEA_3.dscodat
             ├── MultiActator_FEA_2.dscodat
             ├── MultiActator_FEA_1.dscodat
         ├── Simplified Multi-Actuator CAD Files
-            ├── TC_FEA_V4_truss_w_needle_block_and_gripper.SLDPRT
-            ├── TC_FEA_V3_truss_w_needle_block_and_gripper.SLDPRT
-            ├── TC_FEA_V2_truss_w_needle_block_and_gripper.SLDPRT 
+            ├── TC_FEA_V4_truss_w_needle_block_and_gripper.SLDPRT (Most up-to-date CAD produces Multi-Actuator_V2.wbpj)
+            ├── TC_FEA_V3_truss_w_needle_block_and_gripper.SLDPRT (No Modified end peice gripper)
+            ├── TC_FEA_V2_truss_w_needle_block_and_gripper.SLDPRT  
             ├── TC_FEA_truss_w_needle_block_and_gripper.SLDPRT
         ├── Ansys Hydrogel Characteristics
             ├── Hydrogel Library.xml (Storage file for kPa range)
