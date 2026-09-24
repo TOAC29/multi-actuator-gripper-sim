@@ -12,11 +12,9 @@ This README contains the CAD geometry, material characterization data, and simul
     ├── Single Linear Actuator Photos
     ├── Single Linear Actuator 3D Files
         ├── Single Linear Actuator SLDRT Files
-            ├── TC_FEA_V5_Single Below.sldrt
-            ├── TC_FEA_V4_Single Below.sldrt
-            ├── TC_FEA_V3_Single Below.sldrt
-            ├── TC_FEA_V2_Single Below.sldrt
-            ├── TC_FEA_Single Below.sldrt
+            ├── TC_FEA_V5_Single Below.sldrt (0mm cap and 1mm cap on both ends of the bellow)
+            ├── TC_FEA_V6_Single Below.sldrt (1mm cap on both ends of the bellow)
+            ├── TC_FEA_V7_Single Below.sldrt (most updated:10mm base with a 1mm cap on hollow single bellow)
         ├── Single Linear Actuator STL 
             ├── Single_LinearACT5.STL
             ├── Single_LinearACT4.STL
