@@ -6,4 +6,10 @@ Simulation workflows for the multi-actuator soft gripper (BORG Lab, Carnegie Mel
 
 This repository contains the CAD geometry, material characterization data, simulation setups, and results used to evaluate actuator deformation and internal pressure behavior under load.
 
-## Repository Structure
+## Drive Structure
+├── Single Below CAD + Photos 
+    ├──
+├──
+├──
+├──
+├──
