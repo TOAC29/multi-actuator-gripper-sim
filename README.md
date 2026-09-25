@@ -4,14 +4,14 @@ Simulation workflows for the multi-actuator soft gripper drive.
 
 ## Overview
 
-This README contains the CAD geometry, material characterization data, and simulation file location. Consult the documentation to see which files produce which simulations.
+This README contains an overview of the drive file structure and a brief explanation of what files do what. Consult the documentation to see which files produce which simulations.
 
 ## Drive Structure
 ```
 ├── Single Below CAD + Photos 
     ├── Single Linear Actuator Photos
     ├── Single Linear Actuator 3D Files
-        ├── Single Linear Actuator SLDRT Files
+        ├── Single Linear Actuator SLDRT Files (Single linear actuator used for Pressure testing, differing cap sizes)
             ├── TC_FEA_V5_Single Below.sldrt (0mm cap and 1mm cap on both ends of the bellow)
             ├── TC_FEA_V6_Single Below.sldrt (1mm cap on both ends of the bellow)
             ├── TC_FEA_V7_Single Below.sldrt (most updated:10mm base with a 1mm cap on hollow single bellow)
@@ -25,15 +25,15 @@ This README contains the CAD geometry, material characterization data, and simul
     ├── Simplified Multi-Actuator Photos 
     ├── Simplified Multi Actuator CAD + Simulation Files
         ├── Simplified Multi-Actuator Simulation Files
-            ├── Mechanical_simulation_V2.wbpj (FEA with simplified gripper and simplified end pieces)
             ├── Mechanical_simulation_V1.wbpj (FEA with simplified gripper no simplified end pieces)
+            ├── Mechanical_simulation_V1_files.wbpj (accompanying simulation files needed to load and run/load sim)
             ├── MultiActuator_FEA_4.dscodat (Pressure testing simulation inlet/oulet in discovery)
             ├── MultiActator_FEA_3.dscodat
             ├── MultiActator_FEA_2.dscodat 
             ├── MultiActator_FEA_1.dscodat 
         ├── Simplified Multi-Actuator CAD Files
             ├── TC_FEA_V4_truss_w_needle_block_and_gripper.SLDPRT (Most up-to-date CAD produces Multi-Actuator_V2.wbpj)
-            ├── TC_FEA_V3_truss_w_needle_block_and_gripper.SLDPRT (No Modified end piece gripper)
+            ├── TC_FEA_V3_truss_w_needle_block_and_gripper.SLDPRT (No modified end piece gripper)
             ├── TC_FEA_V2_truss_w_needle_block_and_gripper.SLDPRT  
             ├── TC_FEA_truss_w_needle_block_and_gripper.SLDPRT
         ├── Ansys Hydrogel Characteristics
